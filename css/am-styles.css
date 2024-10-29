@@ -1,0 +1,370 @@
+.tenon-result .certainty, .tenon-result .priority { padding: 2px; border-radius: 2px; text-shadow: 1px 1px #000; }
+
+.tenon-result .am-meta, .tenon-result .meta { font-family: Arial, sans-serif; }
+
+.tenon-result .high, .tenon-result .high .dashicons {
+	font-weight: 700;
+	color: white;
+	background: darkred;
+}
+
+.tenon-result .medium, .tenon-result .medium .dashicons {
+	font-weight: 700;
+	color: black;
+	background: yellow;
+	text-shadow: 1px 1px #fff;
+}
+
+.tenon-result .low, .tenon-result .low .dashicons {
+	color: white;
+	background: darkgreen;
+}
+
+.tenon-result {
+	padding: 1em;
+	margin-bottom: 2em;
+}
+
+.tenon-result.highlight-error {
+	background: #fff !important;
+	border-left: 6px solid darkred;
+}
+
+#am_report_div .tenon-report caption {
+	font-weight: 700;
+	font-size: 1.4em;
+}
+
+#am_report_div .tenon-report:nth-of-type(n+2) caption {
+	margin-top: 1em;
+}
+
+.tenon-result:nth-of-type(even), .tenon-report tr:nth-of-type(even) {
+	background: rgb( 240,240,240 );
+}
+
+.tenon-report td {
+	position: relative;
+	overflow: visible;
+}
+
+.no-js .codepanel { display: none; }
+
+.codepanel {
+	left: -2em;
+	position: absolute;
+	background: #e6e6e6;
+	padding: .5em;
+	z-index: 10;
+	width: 24em;
+}
+
+.codepanel code {
+	background: #e6e6e6;
+	color: #222;
+}
+
+button.close {
+	border: none;
+	background: none;
+	padding: 0;
+	margin: 0;
+	margin: 0 0 2px 2px;
+	float: right;
+	color: darkred;
+}
+
+button.close:hover, button.close:focus {
+	background: #fff;
+}
+
+.error-total {
+	text-align: center;
+	line-height: 1.2;
+	background: rgba( 0,0,0,.05 );
+	padding: .25em;
+}
+
+.error-total span {
+	display: block;
+	font-size: 4em; 
+}
+
+#am_total, #am_tested {
+	width: 4em;
+}
+
+#am_schedule {
+	width: 10em;
+}
+
+#am_report_div pre {
+	overflow: scroll;
+	background: #f3f3f3;
+}
+
+#am_report_div code {
+	background: transparent;
+}
+
+.no-js .report-settings {
+	display: none;
+}
+
+.post-type-tenon-report .misc-pub-visibility { display: none; }
+
+#access-monitor h1 .dashicons-universal-access { font-size: 1.3em; width: 1.3em; }
+
+.tenon-result code, .tenon-result pre {
+	margin: 1em 0!important;
+	padding: .5em!important; 
+	white-space: pre-wrap;       /* css-3 */
+	white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+	white-space: -pre-wrap;      /* Opera 4-6 */
+	white-space: -o-pre-wrap;    /* Opera 7 */
+	word-wrap: break-word;       /* Internet Explorer 5.5+ */
+	background: #f9f9f9;
+	color: #333;
+}
+
+.tenon-result h3,
+.tenon-result .xpath-data h4 {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.tenon-result p.am-meta {
+	display: inline-block;
+}
+
+.tenon-result-details {
+	max-width: 56em;
+}
+
+#am-errors {
+	display: none;
+}
+
+.tenon-results {
+	position: fixed;
+	z-index: 10000;
+	background: #f3f3f3;
+	color: #333;
+	border-top: 3px solid #666;
+	overflow: scroll;
+	bottom: 0;
+	height: 50%;
+	width: 100%;
+	padding: 1em;
+	text-align: left;
+	font-size: 12px;
+	line-height: 1.62;
+}
+
+.tenon-results p {
+	font-size: 1.2em;
+	margin-bottom: 1em;
+}
+
+.tenon-results h2 {
+	font-size: 1.6em;
+	text-transform: initial;
+}
+
+.tenon-results h3 {
+	font-size: 1.4em;
+	text-transform: initial;
+}
+
+.tenon-results button {
+	position: fixed;
+	right: 2em;
+}
+
+.tenon-view-container {
+	position: relative;
+}
+
+.tenon-view-container button {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: auto!important;
+}
+
+.tenon-view-container h3 {
+	font-size: 1.1em;
+}
+
+.tenon-results .tenon-result, .tenon-results h2 {
+	padding: .5em;
+	max-width: 760px;
+	margin: 0 auto .5em;
+}
+
+.tenon-result a, .tenon-error-comment a {
+	text-decoration: underline !important;
+	border: none !important;
+	color: #22a !important;
+}
+
+.tenon-result a:hover, .tenon-result a:focus,
+.tenon-error-comment a:hover, .tenon-error-comment a:focus {
+	text-decoration: none !important;
+}
+
+.tenon-error {
+	position: relative;
+	display: inline;
+}
+
+.toggle-results .dashicons {
+	width: auto;
+	height: auto;
+	font-size: inherit;
+	vertical-align: middle;
+}
+
+.toggle-view {
+	padding: 0px !important;
+	font-size: 24px !important;
+	width: 24px !important;
+	max-width: 24px !important;
+	height: 24px !important;
+	z-index: 5;
+	position: absolute;
+	top: 2px !important;
+	left: 2px !important;
+	color: #fff !important;
+	background: #900 !important;
+	border-radius: 4px !important;
+	border: 1px solid transparent !important;
+	text-decoration: none !important;
+}
+
+.toggle-view .dashicons {
+	position: relative;
+	left: -2px;
+	display: inline-block;
+	margin: 0 !important;
+	width: 24px !important;
+	height: 24px !important;
+	font-size: 24px !important;
+}
+
+.tenon-updating {
+	font-family: dashicons !important;
+}
+
+.tenon-updating.animating {
+	animation-name: tenon-updating;
+	animation-duration: 6s;
+	animation-iteration-count: 10;	
+}
+
+.tenon-updating.complete {
+	color: #7f7;
+}
+
+@keyframes tenon-updating {
+	0% { transform: rotate( 45deg ); }
+	12.5% { transform: rotate( 90deg ); }
+	25% { transform: rotate( 136deg ); }
+	37.5% { transform: rotate( 180deg ); }
+	50% { transform: rotate( 225deg ); }
+	62.5% { transform: rotate( 270deg ); }
+	75% { transform: rotate( 315deg ); }
+	87.5% { transform: rotate( 360deg ); }
+}
+
+.toggle-view.high {
+	background: darkred !important;
+	color: #fff !important;
+}
+
+.toggle-view.medium {
+	background: yellow !important;
+	color: #000 !important;
+}
+
+.toggle-view.low {
+	background: darkgreen !important;
+	color: #fff !important;
+}
+
+.toggle-view:hover, .toggle-view:focus, .toggle-view:active {
+	border: 1px solid #111 !important;
+}
+
+.tenon-error-comment {
+	position: absolute;
+	display: block;
+	left: 3px;
+	top: 1.5em;
+	width: 20em;
+	padding: 1em;
+	background: #f3f3f3;
+	color: #333;
+	z-index: 1000;
+	border: 1px solid #666;
+}
+
+.tenon-error-comment p {
+	margin: 0;
+	padding: 0;
+	line-height: 1.4;
+	text-align: left !important;
+}
+
+.tenon-error-comment p * {
+	padding: 2px 0 !important;
+	margin: 2px 0 !important;
+	text-align: left !important;
+	font-weight: 400 !important;
+	font-size: 1.4rem !important;;
+	text-transform: none !important;
+}
+
+.rtl .tenon-error-comment p {
+	text-align: right !important;
+}
+
+.tenon-results .tenon-standards ul {
+	margin: 0;
+	margin-left: 2em;
+}
+
+.tenon-results .tenon-standards li {
+	list-style-type: disc;
+	line-height: 1.7;
+}
+
+.tenon-results p.am-meta, .tenon-results p.meta {
+	margin-bottom: 0;
+}
+
+#access-monitor .hndle {
+	cursor: auto;
+}
+
+.screen-reader-text {
+	border: 0;
+	clip: rect(1px, 1px, 1px, 1px);
+	clip-path: inset(50%);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute !important;
+	width: 1px;
+	word-wrap: normal !important; /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+
+.inspect-a11y .dashicons,
+.inspect-a11y .dashicons:before {
+	vertical-align: text-top;
+}
+
+.am-errors {
+	display: none;
+}

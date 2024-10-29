@@ -1,0 +1,127 @@
+.am-settings pre { width: 100%; overflow: scroll; background: #fff; padding: 5px; }
+.am-settings .postbox { margin: 0 10px 0 0}
+.am-settings .postbox .inside { overflow: visible!important} /* some plugins change this, but I need it at WP default. */
+.am-settings .meta-box-sortables { min-height: 0}
+.am-settings table { margin-bottom: 2em; }
+.am-settings caption { font-size: 1.1em; }
+.am-settings label { display: block; }
+.am-settings .checkbox { padding-bottom: 1em; }
+.am-settings .checkbox label { display: inline; }
+.am-settings legend { font-weight: 700; }
+.inspect-a11y .dashicons { vertical-align: middle; }
+.report-options { padding: 1em; border: 1px solid #ddd; }
+#support_request { width: 100%; }
+
+.toggle-options.button-secondary .dashicons {
+	vertical-align: middle;
+}
+
+
+.promotion {
+	font-weight: 600;
+	text-align: center;
+}
+
+.promotion img {
+	max-width: 130px;
+	height: auto;
+	margin: 0 auto;
+	display: block;
+}
+
+.postbox.promotion p.coupon {
+	padding: 1em;
+	border: 2px dashed #ccc;
+	text-align: center;
+}
+
+.promotion .coupon code {
+	font-size: 1em;
+}
+
+.wpa-support-me img {
+	max-width: 120px;
+}
+
+.wpa-support-me {
+	background: #007eb3;
+	text-shadow: 1px 1px rgb( 35, 60, 127 );
+}
+
+.wpa-flex {
+	display: flex;
+	align-items: center;
+}
+
+#wpa-sidebar.postbox .wpa-affiliate-notice {
+	font-size: 1rem;
+	padding: .5rem;
+	background: #0000000c;
+	font-weight: 400;
+	padding: .5em;
+	margin: 0 -12px -23px !important;
+}
+
+.promotion p {
+	font-size: 1.6em;
+	margin: 0 0 1em;
+	padding: 1em;
+}
+
+.promotion p.small {
+	font-size: 1.3em;
+	font-weight: 400;
+	text-align: left;
+}
+
+.postbox.promotion p {
+	padding: 0 1em;
+}
+
+
+.am-alert {
+	margin-top: .25em;
+	padding: .5em;
+	background: #fefefe;
+	box-shadow: 2px 2px 3px #bbb;
+	border: 1px solid #ccc;
+	border-left: 4px solid #c00;
+	display: block;
+}
+
+.am-support-me p {
+	font-size: 1.6em;
+	font-weight: 600;
+	background: #007eb3;
+	text-shadow: 1px 1px rgb( 35, 60, 127 );
+	padding: 1em;
+	text-align: center;
+	margin: 0 0 1em;
+}
+
+.am-support-me p, .am-support-me a {
+	color: #fff;
+}
+
+.am-support-me a:hover, .am-support-me a:focus {
+	text-decoration: none;
+}
+
+.jcd-wide {
+    width: 70%;
+}
+
+.jcd-narrow {
+    width: 20%;
+}
+
+@media (max-width: 782px) {
+
+    .jcd-narrow {
+        width: 100%;
+    }
+
+    .jcd-wide {
+        width: 100%;
+    }
+}
